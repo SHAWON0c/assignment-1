@@ -1,0 +1,334 @@
+
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+h4{
+    font-weight: 800;
+    margin-left: 50px;
+}
+
+nav>a>button{
+    font-weight: 600;
+}
+
+.nav-btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+border: 1px solid #0D1321;
+
+opacity: 0.8;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav>a{
+    margin-right: 50px;
+}
+
+.nav-container{
+
+    text-align: center;
+    margin-top: 10px;
+    background-image: url(../B10A1-Challenge-Begins-main/assets/Hero-bg.png);
+    height: 652px;
+    width: 1440;
+}
+
+.contact-btn{
+    height: 65px;
+    width: 244px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+
+    
+}
+.main-1{
+    /* text-align: center; */
+    max-width:1140px;
+    margin: auto;
+    padding: 80px 97px;
+    gap: 10px;
+    background-color:rgba(13, 19, 33, 0.02); ;
+ 
+
+}
+
+.main-2{
+    max-width:1140px;
+    margin: auto;
+    padding: 80px 97px;
+    gap: 10px;
+
+}
+
+.line-height-1{
+    line-height: 1.5; /* Adjust the line height as per your requirement */
+    width: 70%; /* Adjust the width as per your requirement */
+    margin: 0 auto; /* Center the paragraph horizontally */
+    padding: 20px; /* Optional: Add padding for better readability */
+}
+
+.details-box-{
+    display: flex;
+    justify-content: space-between;
+    background-color: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    margin-bottom: 20px;
+    padding: 48px;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 16px;
+}
+
+.box-heading{
+    max-width: 946px;
+    background-color:rgba(13, 19, 33, 0.02);
+    margin: auto;
+    align-items: center;
+}
+
+/* btn sectoion */
+.main-btn {
+    width: 150px; /* Adjust width as needed */
+    height: 40px;
+    padding: 12px 20px;
+    align-items: center;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 13px; 
+    font-weight: 600;
+    line-height: normal;
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+}
+
+
+.content{
+    height: auto;
+    width: 477px;
+}
+
+.main-title{
+    text-align: center;
+    gap: 10px;
+}
+
+
+.heading-color{
+color: rgba(13, 19, 33, 0.70);
+font-family: "Azeret Mono";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; 
+}
+
+.description-color{
+color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+opacity: 0.7;
+}
+
+.description-color-2{
+    color: #FFF;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 26px; /* 162.5% */
+}
+
+.all-tile{
+    color: #0D1321;
+
+text-align: center;
+font-size: 32px;
+font-weight: 800;
+
+}
+
+
+
+.inspiration-line{
+    line-height: 26px;
+}
+
+.inspiration-section{
+    text-align: center;
+    width: 100%;
+    max-width: 1140px;
+    /* height:5235px; */
+    grid-area: 40px;
+    margin: auto;
+    gap: 20px;
+}
+
+
+.iframe{
+    height: 500px;
+    width: 1140px;
+    gap: 48px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.20);
+    padding: 32px;
+}
+.container {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    
+}
+
+.target-box {
+
+    text-align: left; /* Adjust text alignment as needed */
+    border-radius: 16px;
+    width: 500px;
+    margin: 20px  ;
+    padding: 40px;
+}
+
+.box-color-html{
+    background: rgba(255, 76, 30, 0.05);
+}
+.box-color-css{
+    background: rgba(0, 76, 232, 0.05);
+
+
+}
+.box-color-js{
+    background: rgba(255, 223, 0, 0.05);
+
+
+}
+
+.next-target-box{
+
+border-radius: 16px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+background: #FFF;
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+padding: 40px;
+justify-content: flex-end;
+width: 1140px;
+
+
+}
+
+.target-img{
+    width: 143.509px;
+    height: 88px;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+.next-target-title{
+    height:139px ;
+    width: 941px;
+    text-align: left;
+}
+
+.support-container{
+
+    background-image: url(../B10A1-Challenge-Begins-main/assets/handshake.jpg );
+
+
+    display: flex;
+    width: 1140px;
+    padding: 64px 48px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 32px;
+    
+}
+
+
+/* footer section  */
+footer{
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+    margin-left: 20px;
+
+    margin-top:50px;
+    padding: 32px 150px;
+    background: rgba(13, 19, 33, 0.03);
+
+}
+
+
+
+.input{
+    width: 548px;
+padding: 19px 20px;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+
+background: #FFF;
+ color: rgba(13, 19, 33, 0.40);
+ font-family: "Azeret Mono";
+
+}
+
+
+.sub-btn {
+
+padding: 17px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #FFF;
+
+color: #0D1321;
+
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+
+.font{
+
+    color: #0D1321;
+
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal
+}
+  
+
+/* 
+
+second 
+
+*/
